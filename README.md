@@ -44,15 +44,18 @@ As called out, be sure to close the development server using CTRL+C in the VSCod
 Do VSCode > Terminal menu > Run Build Task, or VSCode > Terminal Menu > Run Task > npm: build. This builds the code into ~/dist folder.
 
 If you haven’t installed “serve” yet, do so by 
+
   sudo npm install -g serve
 
 Then, to actually run the production server, do 
+
   serve -s dist
 
 Inside the root folder of the app / from the VSCode terminal.
 
 On newer windows versions, this might give you an error related to execution policy.
 If so, run this command in the terminal before running serve -s dist
+
   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## Clean Everything
