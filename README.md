@@ -21,9 +21,9 @@ For more details, see ~/documentation.pdf
 Open the resulting minimal-typescript-react-template folder in Visual Studio Code
 
 ## To run development server
-In Visual Studio Code (VSCode) > Terminal > Run Task > npm: start
+In Visual Studio Code (VSCode) > Terminal > Run Task > *npm: start*
 
-This will pull node_modules on first run. Then it will do necessary compilation and start development server. It will also open your default browser and navigate to the App
+This will pull node_modules and do necessary compilation and start development server. It will also open your default browser and navigate to the App
 
 Be sure once you’re done to use CTRL+C in the VSCode terminal to exit out of the development server.
 
@@ -49,27 +49,23 @@ to use this
 Microsoft Edge has also been added, because why not?
 
 ## To Build and Run production
-Do VSCode > Terminal menu > Run Build Task, or VSCode > Terminal Menu > Run Task > npm: build. This builds the code into ~/dist folder.
+Do VSCode > Terminal menu > Run Build Task, or VSCode > Terminal Menu > Run Task > *npm: build*. This builds the code into ~/dist folder.
 
 If you haven’t installed “serve” yet, do so by 
 > `sudo npm install -g serve`
 
-Then, to actually run the production server, do 
-> `serve -s dist`
+Then, to actually run the production server, do VSCode > Terminal Menu > Run Task > *npm: serve*, or `$ serve -s dist` Inside the root folder of the app / from the VSCode terminal.
 
-Inside the root folder of the app / from the VSCode terminal.
-
-On newer windows versions, this might give you an error related to execution policy. If so, run this command in the terminal before running `serve -s dist`
+On newer windows versions, this might give you an error related to execution policy. If so, run this command in the terminal before serving
 > `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
 ## Clean Everything
-To delete the node_modules folder, dist folder etc. and thereby do a cleanup of build, VSCode > Terminal menu > Run Task > Clean All
+To delete the node_modules folder, dist folder etc. and thereby do a cleanup of build, VSCode > Terminal menu > Run Task > *npm: clean*
 
 # Using without Visual Studio Code
 Even though this project template is developed with the perspective of using with Visual Studio Code, you can still use it without VSCode. Do the following steps
 - Download code. Then do the below commands from the root folder.
-- Run either `restore-react-modules.sh`, **or** `restore-react-modules.bat`, depending on whether you’re using Linux or Windows.
 - Do `npm run start`, **or** `npm start`, to run the development server
 - Do `npm run build` to build production
 - Do `npm run serve`, **or** `serve -s dist` to serve production locally
-- Do `rm -rf dist node_modules` on linux, **or** `rmdir /s /q dist` and `rmdir /s /q node_modules` on windows to clean up everything
+- Do `npm run clean` to clean up everything
