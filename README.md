@@ -72,3 +72,4 @@ Even though this project template is developed with the perspective of using wit
 - Do `npm run start`, **or** `npm start`, to run the development server
 - Do `npm run build` to build production
 - Do `npm run serve`, **or** `serve -s dist` to serve production locally
+- Do `rm -rf dist node_modules` on linux, **or** `rmdir /s /q dist` and `rmdir /s /q node_modules` on windows to clean up everything
