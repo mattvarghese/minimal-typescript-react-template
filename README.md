@@ -2,6 +2,9 @@
 A minimal project template to create TypeScript React Web Applications 
 using NodeJS and Visual Studio Code.
 
+## Reference
+https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
+
 # Copyright
 Copyright (C) 2022 Varghese Mathew (Matt)
 
