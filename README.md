@@ -64,3 +64,11 @@ On newer windows versions, this might give you an error related to execution pol
 
 ## Clean Everything
 To delete the node_modules folder, dist folder etc. and thereby do a cleanup of build, VSCode > Terminal menu > Run Task > Clean All
+
+# Using without Visual Studio Code
+Even though this project template is developed with the perspective of using with Visual Studio Code, you can still use it without VSCode. Do the following steps
+- Download code. Then do the below commands from the root folder.
+- Run either `restore-react-modules.sh`, **or** `restore-react-modules.bat`, depending on whether you’re using Linux or Windows.
+- Do `npm run start`, **or** `npm start`, to run the development server
+- Do `npm run build` to build production
+- Do `npm run serve`, **or** `serve -s dist` to serve production locally
