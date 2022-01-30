@@ -10,6 +10,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chromium against localhost",
+            "request": "launch",
+            "type": "pwa-msedge",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/snap/bin/chromium",
+            "runtimeArgs": [
+            "--new-window",
+            "-user-data-dir=\"/${workspaceFolder}/DevProfile\"",
+            "--remote-debugging-port=9222",
+            "--disable-background-networking"
+            ]
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",

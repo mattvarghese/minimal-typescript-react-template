@@ -36,9 +36,17 @@ In VSCode, on the left margin, Click the tab/button for “Run and Debug (CTRL+S
 
 On the top, just below the menu bar, click the green “Launch Chrome” button
 
-Chrome will launch to the App URL, and your breakpoint will hit. When you click continue for your breakpoint, the App loads inside Chrome.
+Google Chrome will launch to the App URL, and your breakpoint will hit. When you click continue for your breakpoint, the App loads inside Chrome.
 
 As called out, be sure to close the development server using CTRL+C in the VSCode terminal
+
+### Other browsers for debugging
+Chromium browser has been added for support for raspberry pi where 
+neither chrome nor edge are available. You must have chromium-browser installed
+to use this
+> `sudo apt install chromium-browser`
+
+Microsoft Edge has also been added, because why not?
 
 ## To Build and Run production
 Do VSCode > Terminal menu > Run Build Task, or VSCode > Terminal Menu > Run Task > npm: build. This builds the code into ~/dist folder.
