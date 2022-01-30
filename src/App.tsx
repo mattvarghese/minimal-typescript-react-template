@@ -5,6 +5,7 @@
 // GitHub: https://github.com/mattvarghese/minimal-typescript-react-template
 
 import React from "react";
+import "./App.css";
 
 interface IProps {
     heading: string;
