@@ -5,7 +5,7 @@ using NodeJS and Visual Studio Code.
 ## Reference
 https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
 
-# Copyright
+## Copyright and License
 Copyright (C) 2022 Varghese Mathew (Matt)
 
 Distributed under GNU GENERAL PUBLIC LICENSE Version 3
