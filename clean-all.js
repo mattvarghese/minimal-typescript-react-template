@@ -8,6 +8,6 @@ function puts(error, stdout, stderr) { console.log(stdout) }
 if (os.type() === 'Linux') 
    exec("rm -rf dist node_modules", puts);
 else {
-    exec("Remove-Item -Path dist -Force -Recurse", puts);
-    exec("Remove-Item -Path node_modules -Force -Recurse", puts);
+    exec("rmdir /s /q node_modules", puts);
+    exec("rmdir /s /q dist", puts);
 }
