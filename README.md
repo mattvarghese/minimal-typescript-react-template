@@ -51,5 +51,9 @@ Then, to actually run the production server, do
 
 Inside the root folder of the app / from the VSCode terminal.
 
+On newer windows versions, this might give you an error related to execution policy.
+If so, run this command in the terminal before running serve -s dist
+  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 ## Clean Everything
 To delete the node_modules folder, dist folder etc. and thereby do a cleanup of build, VSCode > Terminal menu > Run Task > Clean All
