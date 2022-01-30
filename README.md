@@ -16,7 +16,7 @@ See ~/license.txt for details
 For more details, see ~/documentation.pdf
 
 ## Downloading code
-  git clone https://github.com/mattvarghese/minimal-typescript-react-template.git
+> `git clone https://github.com/mattvarghese/minimal-typescript-react-template.git`
 
 Open the resulting minimal-typescript-react-template folder in Visual Studio Code
 
@@ -44,19 +44,15 @@ As called out, be sure to close the development server using CTRL+C in the VSCod
 Do VSCode > Terminal menu > Run Build Task, or VSCode > Terminal Menu > Run Task > npm: build. This builds the code into ~/dist folder.
 
 If you haven’t installed “serve” yet, do so by 
-
-  sudo npm install -g serve
+> `sudo npm install -g serve`
 
 Then, to actually run the production server, do 
-
-  serve -s dist
+> `serve -s dist`
 
 Inside the root folder of the app / from the VSCode terminal.
 
-On newer windows versions, this might give you an error related to execution policy.
-If so, run this command in the terminal before running serve -s dist
-
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+On newer windows versions, this might give you an error related to execution policy. If so, run this command in the terminal before running `serve -s dist`
+> `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
 ## Clean Everything
 To delete the node_modules folder, dist folder etc. and thereby do a cleanup of build, VSCode > Terminal menu > Run Task > Clean All
