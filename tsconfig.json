@@ -1,3 +1,6 @@
+// Copyright (C) 2022 Varghese Mathew (Matt)
+// Distributed under GNU GENERAL PUBLIC LICENSE Version 3
+// See ~/license.txt for details
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */

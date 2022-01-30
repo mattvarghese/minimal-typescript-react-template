@@ -1,4 +1,8 @@
-// https://webpack.js.org/configuration/
+// Copyright (C) 2022 Varghese Mathew (Matt)
+// Distributed under GNU GENERAL PUBLIC LICENSE Version 3
+// See ~/license.txt for details
+
+// Reference: https://webpack.js.org/configuration/
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 

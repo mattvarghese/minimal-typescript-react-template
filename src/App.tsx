@@ -1,3 +1,7 @@
+// Copyright (C) 2022 Varghese Mathew (Matt)
+// Distributed under GNU GENERAL PUBLIC LICENSE Version 3
+// See ~/license.txt for details
+
 import React from "react";
 
 interface IProps {

@@ -1,3 +1,6 @@
+rem Copyright (C) 2022 Varghese Mathew (Matt)
+rem Distributed under GNU GENERAL PUBLIC LICENSE Version 3
+rem See ~/license.txt for details
 if not exist "node_modules" (
     npm install react react-dom
     npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
