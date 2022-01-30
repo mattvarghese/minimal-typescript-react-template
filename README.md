@@ -51,10 +51,7 @@ Microsoft Edge has also been added, because why not?
 ## To Build and Run production
 Do VSCode > Terminal menu > Run Build Task, or VSCode > Terminal Menu > Run Task > *npm: build*. This builds the code into ~/dist folder.
 
-If you haven’t installed “serve” yet, do so by 
-> `sudo npm install -g serve`
-
-Then, to actually run the production server, do VSCode > Terminal Menu > Run Task > *npm: serve*, or `$ serve -s dist` Inside the root folder of the app / from the VSCode terminal.
+Then, to run the production server, do VSCode > Terminal Menu > Run Task > *npm: serve*
 
 On newer windows versions, this might give you an error related to execution policy. If so, run this command in the terminal before serving
 > `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
@@ -67,5 +64,5 @@ Even though this project template is developed with the perspective of using wit
 - Download code. Then do the below commands from the root folder.
 - Do `npm run start`, **or** `npm start`, to run the development server
 - Do `npm run build` to build production
-- Do `npm run serve`, **or** `serve -s dist` to serve production locally
+- Do `npm run serve` to serve production locally
 - Do `npm run clean` to clean up everything
