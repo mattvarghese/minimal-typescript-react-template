@@ -1,0 +1,44 @@
+{
+    // Reference: https://code.visualstudio.com/docs/editor/tasks
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "webpack --config webpack.config.js --mode production",
+			"dependsOn":["Restore Node Modules"]
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "webpack serve --mode development --hot --open",
+			"dependsOn":["Restore Node Modules"]
+		},
+		{
+			"label": "Clean All",
+			"type": "shell",
+			"command": "rm -rf dist/ node_modules/",
+			"windows": {
+				"command": "Remove-Item -Path dist -Force -Recurse; Remove-Item -Path node_modules -Force -Recurse"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Restore Node Modules",
+			"type": "shell",
+			"command": "./restore-node-modules.sh",
+			"windows": {
+				"command": ".\\restore-node-modules.bat"
+			},
+			"problemMatcher": []
+		}
+	]
+}
