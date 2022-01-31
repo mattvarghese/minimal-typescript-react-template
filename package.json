@@ -1,8 +1,13 @@
 {
-  "name": "my-app2",
+  "name": "matt-varghese-minimal-typescript-react-template",
+  "displayName": "Matt Varghese's Minimal TypeScript React Project Template",
+  "contributors": [
+    "Matt | Varghese Mathew"
+  ],
+  "homepage": "https://github.com/mattvarghese/minimal-typescript-react-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Matt Varghese's Minimal TypeScript React Project Template",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm install && webpack serve --mode development --hot --open",

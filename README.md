@@ -66,3 +66,6 @@ Even though this project template is developed with the perspective of using wit
 - Do `npm run build` to build production
 - Do `npm run serve` to serve production locally
 - Do `npm run clean` to clean up everything
+
+# To disconnect from GitHub repository
+Delete the `.git` folder and `.gitignore` file in the root directory
