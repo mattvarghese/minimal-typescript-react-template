@@ -45,6 +45,14 @@
 			"problemMatcher": [],
 			"label": "npm: start",
 			"detail": "npm install && webpack serve --mode development --hot --open"
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "jest"
 		}
 	]
 }

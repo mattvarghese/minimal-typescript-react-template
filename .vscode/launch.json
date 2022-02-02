@@ -10,6 +10,24 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "name": "Run tests using Jest",
+            "request": "launch",
+            "program": "${workspaceFolder}/node_modules/.bin/jest",
+            "args": [
+                "--runInBand",
+                "--watchAll=false"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "disableOptimisticBPs": true,
+            "windows": {
+                "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+            },
+            "preLaunchTask": "npm: build"
+        },
+        {
             "name": "Launch Edge against localhost",
             "request": "launch",
             "type": "pwa-msedge",
@@ -24,10 +42,10 @@
             "webRoot": "${workspaceFolder}",
             "runtimeExecutable": "/snap/bin/chromium",
             "runtimeArgs": [
-            "--new-window",
-            "-user-data-dir=\"/${workspaceFolder}/DevProfile\"",
-            "--remote-debugging-port=9222",
-            "--disable-background-networking"
+                "--new-window",
+                "-user-data-dir=\"/${workspaceFolder}/DevProfile\"",
+                "--remote-debugging-port=9222",
+                "--disable-background-networking"
             ]
         },
         {
