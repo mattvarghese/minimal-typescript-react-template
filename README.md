@@ -3,7 +3,7 @@ A minimal project template to create TypeScript React Web Applications using Nod
 
 The primary intention of this project / repository is **NOT** to be a template project - that is just a side benefit. Rather, in documentation.pdf, I walk you through how to build a React Web Application in TypeScript, that is integrated with Visual Studio Code debugging and unit testing capabilities, and runs on both Linux (amd64 & arm64) and Windows. In that sense, this is a **tutorial to unravel some of the mysetery of what create-react-app does**. 
 
-I hope you work throug the exercise, and learn the inner workings of how things are set up. And I hope doing this gives you a deeper understanding of React!
+I hope you work through the exercise, and learn the inner workings of how things are set up. And I hope doing this gives you a deeper understanding of React!
 
 ## Reference
 https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
