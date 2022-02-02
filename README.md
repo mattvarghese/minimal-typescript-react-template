@@ -1,6 +1,9 @@
 # minimal-typescript-react-template
-A minimal project template to create TypeScript React Web Applications 
-using NodeJS and Visual Studio Code.
+A minimal project template to create TypeScript React Web Applications using NodeJS and Visual Studio Code.
+
+The primary intention of this project / repository is **NOT** to be a template project - that is just a side benefit. Rather, in documentation.pdf, I walk you through how to build a React Web Application in TypeScript, that is integrated with Visual Studio Code debugging and unit testing capabilities, and runs on both Linux (amd64 & arm64) and Windows. In that sense, this is a **tutorial to unravel some of the mysetery of what create-react-app does**. 
+
+I hope you work throug the exercise, and learn the inner workings of how things are set up. And I hope doing this gives you a deeper understanding of React!
 
 ## Reference
 https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
@@ -11,6 +14,8 @@ Copyright (C) 2022 Varghese Mathew (Matt)
 Distributed under GNU GENERAL PUBLIC LICENSE Version 3
 
 See ~/license.txt for details
+
+Basically, I don't care what you do with this. However I assume no liability for any insufficiencies, inaccuracies etc. You use this at your own risk. I am here merely to further the cause of knowledge.
 
 # Usage
 For more details, see ~/documentation.pdf
