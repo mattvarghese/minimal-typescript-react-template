@@ -15,7 +15,7 @@ Distributed under GNU GENERAL PUBLIC LICENSE Version 3
 
 See ~/license.txt for details
 
-Basically, I don't care what you do with this. However I assume no liability for any insufficiencies, inaccuracies etc. You use this at your own risk. I am here merely to further the cause of knowledge.
+Basically, I don't care what you do with this. However I assume no liability for any insufficiencies, inaccuracies etc. You use this at your own risk. I am here merely to further the cause of knowledge. I will appreciate (but not mandate) acknowledgement in derivative productions.
 
 # Usage
 For more details, see ~/documentation.pdf
