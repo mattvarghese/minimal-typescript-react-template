@@ -8,6 +8,8 @@ I hope you work through the exercise, and learn the inner workings of how things
 ## Reference
 https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
 
+Published at: https://mattvarghese.github.io/minimal-typescript-react-template/
+
 ## Copyright and License
 Copyright (C) 2022 Varghese Mathew (Matt)
 
