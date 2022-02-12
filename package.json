@@ -4,7 +4,7 @@
   "contributors": [
     "Matt | Varghese Mathew"
   ],
-  "homepage": "https://github.com/mattvarghese/minimal-typescript-react-template",
+  "homepage": "https://mattvarghese.github.io/minimal-typescript-react-template/",
   "version": "1.0.0",
   "description": "Matt Varghese's Minimal TypeScript React Project Template",
   "main": "index.tsx",
@@ -13,7 +13,9 @@
     "start": "npm install && webpack serve --mode development --hot --open",
     "build": "npm install && webpack --config webpack.config.js --mode production",
     "serve": "npm run build && serve -s dist",
-    "clean": "node clean-all.js"
+    "clean": "node clean-all.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ./dist"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +36,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "serve": "^13.0.2",
     "style-loader": "^3.3.1",
