@@ -4,7 +4,7 @@
 // Blog: https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
 // GitHub: https://github.com/mattvarghese/minimal-typescript-react-template
 {
-    // Reference: https://code.visualstudio.com/docs/editor/tasks
+	// Reference: https://code.visualstudio.com/docs/editor/tasks
 	"version": "2.0.0",
 	"tasks": [
 		{
@@ -12,21 +12,30 @@
 			"script": "install",
 			"problemMatcher": [],
 			"label": "npm: install",
-			"detail": "install dependencies from package"
+			"detail": "install dependencies from package",
+			"presentation": {
+				"close": true
+			}
 		},
 		{
 			"type": "npm",
 			"script": "serve",
 			"problemMatcher": [],
 			"label": "npm: serve",
-			"detail": "npm run build && serve -s dist"
+			"detail": "npm run serve",
+			"presentation": {
+				"close": true
+			}
 		},
 		{
 			"type": "npm",
 			"script": "clean",
 			"problemMatcher": [],
 			"label": "npm: clean",
-			"detail": "node clean-all.js"
+			"detail": "node run clean",
+			"presentation": {
+				"close": true
+			}
 		},
 		{
 			"type": "npm",
@@ -37,14 +46,20 @@
 			},
 			"problemMatcher": [],
 			"label": "npm: build",
-			"detail": "npm install && webpack --config webpack.config.js --mode production"
+			"detail": "npm run build",
+			"presentation": {
+				"close": true
+			}
 		},
 		{
 			"type": "npm",
 			"script": "start",
 			"problemMatcher": [],
 			"label": "npm: start",
-			"detail": "npm install && webpack serve --mode development --hot --open"
+			"detail": "npm run start",
+			"presentation": {
+				"close": true
+			}
 		},
 		{
 			"type": "npm",
@@ -52,7 +67,10 @@
 			"group": "test",
 			"problemMatcher": [],
 			"label": "npm: test",
-			"detail": "jest"
+			"detail": "npm run test",
+			"presentation": {
+				"close": true
+			}
 		}
 	]
 }
