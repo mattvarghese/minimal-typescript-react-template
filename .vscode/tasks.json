@@ -12,7 +12,7 @@
 			"script": "install",
 			"problemMatcher": [],
 			"label": "npm: install",
-			"detail": "install dependencies from package",
+			"detail": "Run the npm install script",
 			"presentation": {
 				"close": true
 			}
@@ -22,7 +22,7 @@
 			"script": "serve",
 			"problemMatcher": [],
 			"label": "npm: serve",
-			"detail": "npm run serve",
+			"detail": "Run the npm serve script",
 			"presentation": {
 				"close": true
 			}
@@ -32,7 +32,7 @@
 			"script": "clean",
 			"problemMatcher": [],
 			"label": "npm: clean",
-			"detail": "node run clean",
+			"detail": "Run the npm clean script",
 			"presentation": {
 				"close": true
 			}
@@ -46,7 +46,7 @@
 			},
 			"problemMatcher": [],
 			"label": "npm: build",
-			"detail": "npm run build",
+			"detail": "Run the npm build script",
 			"presentation": {
 				"close": true
 			}
@@ -56,7 +56,7 @@
 			"script": "start",
 			"problemMatcher": [],
 			"label": "npm: start",
-			"detail": "npm run start",
+			"detail": "Run the npm start script",
 			"presentation": {
 				"close": true
 			}
@@ -67,7 +67,7 @@
 			"group": "test",
 			"problemMatcher": [],
 			"label": "npm: test",
-			"detail": "npm run test",
+			"detail": "Run the npm test script",
 			"presentation": {
 				"close": true
 			}

@@ -4,9 +4,9 @@
 // Blog: https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
 // GitHub: https://github.com/mattvarghese/minimal-typescript-react-template
 
-{  
+{
     "presets": [
-           "@babel/preset-react",
-           "@babel/preset-env"
+        "@babel/preset-react",
+        "@babel/preset-env"
     ]
 }
