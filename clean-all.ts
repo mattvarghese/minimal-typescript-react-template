@@ -14,10 +14,12 @@ function puts(_error, stdout, _stderr) {
 // Run command depending on the OS
 if (os.type() === 'Linux') {
     exec("rm -rf dist node_modules", puts);
+    exec("rm package-lock.json", puts);
     exec("rm clean-all.js", puts);
 }
 else {
     exec("rmdir /s /q node_modules", puts);
     exec("rmdir /s /q dist", puts);
+    exec("del package-lock.json", puts);
     exec("del clean-all.js", puts);
 }
