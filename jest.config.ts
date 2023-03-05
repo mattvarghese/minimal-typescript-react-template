@@ -4,7 +4,7 @@
 // Blog: https://mattvarghese-cs.blogspot.com/2022/01/minimal-typescript-react-project.html
 // GitHub: https://github.com/mattvarghese/minimal-typescript-react-template
 
-import type {Config} from '@jest/types';
+import type { Config } from '@jest/types';
 
 const config: Config.InitialOptions = {
   verbose: true,
@@ -18,4 +18,5 @@ const config: Config.InitialOptions = {
     "\\.(scss|sass|css)$": "<rootDir>/src/tests/__mocks__/styleMock.ts"
   }
 };
+
 export default config;
