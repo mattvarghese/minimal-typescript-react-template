@@ -7,7 +7,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import "./index.css";
+import "./index.scss";
 
 // Reference: https://github.com/reactwg/react-18/discussions/5
 const container = document.querySelector("#root");
